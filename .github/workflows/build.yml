@@ -1,5 +1,9 @@
 name: Build .NET Application
 on:
+  push:
+    branches:
+    - main
+    
   workflow_dispatch:
     inputs:
       logLevel:
@@ -16,9 +20,6 @@ on:
         required: true
         default: 'dev'
         type: environment
-  push:
-    branches:
-      - main
 
 jobs:
   build:

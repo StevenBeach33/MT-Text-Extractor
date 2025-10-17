@@ -29,4 +29,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: build
-          path: ./bin/Release/
+          path: D:\a\MT-Text-Extractor\MT-Text-Extractor\TextExtractor\TextExtractor\bin\Release\

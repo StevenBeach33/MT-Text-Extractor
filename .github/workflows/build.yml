@@ -16,7 +16,6 @@ on:
         required: true
         default: 'dev'
         type: environment
-on:
   push:
     branches:
       - main

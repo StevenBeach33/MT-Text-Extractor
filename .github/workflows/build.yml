@@ -17,7 +17,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '4.6'
+          dotnet-version: '4.0'
 
       - name: Restore dependencies
         run: dotnet restore
@@ -32,4 +32,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: build
-          path: ./bin/Release/net4.6/publish/
+          path: ./bin/Release/net4.0/publish/
